@@ -22,14 +22,8 @@
         }
         
         .hero-section {
-            /* 
-             * 【背景画像の設定】
-             * ご自身の画像を背景に設定する場合は、以下の行の先頭の `/*` と末尾の `* /` を削除し、
-             * 'ご自身の画像ファイル名.jpg' の部分を実際のファイル名に書き換えてください。
-             * 画像の上に暗いフィルター(linear-gradient)をかけて、白い文字を読みやすくしています。
-             */
-            background-color: #1e293b; /* 画像が設定されるまでの仮の背景色 */
-            /* background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('ご自身の画像ファイル名.jpg'); */
+            background-color: #1e293b;
+            /* background-image: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('kammer_profile.jpg'); */
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -115,13 +109,13 @@
             <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 tracking-wider">団体概要</h2>
             <div class="prose prose-lg mx-auto text-gray-600 leading-relaxed text-justify">
                 <p class="mb-6">
-                    九大フィル・カンマーオーケストラは、九州大学を中心とした学生・OBOGによって構成される室内管弦楽団（カンマーオーケストラ）です。
+                    九大フィル・カンマーオーケストラは、九大フィル・ハーモニーオーケストラを母体とし、同楽団のメンバーによって構成されているる室内管弦楽団です。
                 </p>
                 <p class="mb-6">
-                    [ここに団体の設立年や、設立の目的などを簡潔に記載します。例：大編成のオーケストラでは取り上げにくい古典派の楽曲や室内楽作品を中心に演奏することを目的として設立されました。]
+                   大編成のオーケストラでは取り上げにくい古典派の楽曲を中心に演奏することを目的として設立されました。
                 </p>
                 <p>
-                    [人数規模や、主な活動拠点などを記載します。小規模編成ならではの緻密なアンサンブルを追求し、音楽の喜びを分かち合う活動を行っています。]
+                   九州大学OBの井上京氏を指揮者として迎え、小規模編成ならではの緻密なアンサンブルを追求しています。
                 </p>
             </div>
         </div>
@@ -138,7 +132,7 @@
                     <div class="text-blue-900 text-4xl mb-4"><i class="fas fa-music"></i></div>
                     <h3 class="text-xl font-bold mb-4 text-gray-800">定期演奏会</h3>
                     <p class="text-gray-600">
-                        [年に何回程度、どのような場所で演奏会を行っているかを記載します。例：年に1回程度、福岡市内または近郊のホールにて演奏会を開催しています。]
+                       年に１回、福岡市内のホールにて定期演奏会を開催しています。
                     </p>
                 </div>
                 
@@ -147,12 +141,27 @@
                     <div class="text-blue-900 text-4xl mb-4"><i class="fas fa-users"></i></div>
                     <h3 class="text-xl font-bold mb-4 text-gray-800">練習について</h3>
                     <p class="text-gray-600">
-                        [練習の頻度や場所などを記載します。更新が不要なように「演奏会前に集中して行います」など抽象的な表現でも構いません。]
                     </p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Present / Up-coming Concerts Section -->
+    <section id="Present" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 tracking-wider">これからの演奏会</h2>
+
+                <!-- Concert Item (Dummy Data) -->
+                <div class="border-l-4 border-gray-300 pl-6 py-2">
+                    <h3 class="text-lg font-bold text-gray-800">第２回 演奏会</h3>
+                    <p class="text-sm text-gray-500 mb-2">2026年 9月10日（木） | [なみきホール]</p>
+                    <ul class="text-gray-600 list-disc list-inside">
+                        <li>ドヴォルザーク / ヴァイオリン協奏曲</li>
+                        <li>ベートーヴェン / 交響曲第5番（運命）</li>
+                    </ul>
+                </div>
+</section>
 
     <!-- History / Past Concerts Section -->
     <section id="history" class="py-20 bg-white">
@@ -162,25 +171,14 @@
             <div class="space-y-8">
                 <!-- Concert Item (Dummy Data) -->
                 <div class="border-l-4 border-blue-900 pl-6 py-2">
-                    <h3 class="text-lg font-bold text-gray-800">第X回 演奏会</h3>
-                    <p class="text-sm text-gray-500 mb-2">202X年 X月X日 | [会場名]</p>
+                    <h3 class="text-lg font-bold text-gray-800">第１回 演奏会</h3>
+                    <p class="text-sm text-gray-500 mb-2">2025年 9月17日 | [FFGホール]</p>
                     <ul class="text-gray-600 list-disc list-inside">
-                        <li>モーツァルト / 交響曲第XX番</li>
-                        <li>ベートーヴェン / 〇〇序曲</li>
-                    </ul>
-                </div>
-
-                <!-- Concert Item (Dummy Data) -->
-                <div class="border-l-4 border-gray-300 pl-6 py-2">
-                    <h3 class="text-lg font-bold text-gray-800">第X-1回 演奏会</h3>
-                    <p class="text-sm text-gray-500 mb-2">202X年 X月X日 | [会場名]</p>
-                    <ul class="text-gray-600 list-disc list-inside">
-                        <li>ハイドン / 交響曲第XX番</li>
-                        <li>シューベルト / 交響曲第X番</li>
+                        <li>モーツァルト / ヴァイオリン協奏曲第５番</li>
+                        <li>モーツァルト / 交響曲第35番《ハフナー》 ほか</li>
                     </ul>
                 </div>
                 
-                <p class="text-sm text-gray-500 text-center mt-8 italic">※記録の一部を掲載しています</p>
             </div>
         </div>
     </section>
@@ -190,7 +188,7 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold mb-8 tracking-wider">お問い合わせ</h2>
             <p class="mb-8 text-gray-300 max-w-2xl mx-auto">
-                当団に関するご質問、入団希望（※募集状況によります）、演奏のご依頼などは、下記よりお問い合わせください。<br>
+                当団に関するご質問、演奏のご依頼などは、下記よりお問い合わせください。<br>
                 <span class="text-sm">※お問い合わせへの返信にはお時間をいただく場合がございます。</span>
             </p>
             
