@@ -82,22 +82,14 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-section h-screen flex flex-col justify-center items-center text-center px-4 relative">
+    <header class="hero-section h-[75vh] flex flex-col justify-center items-center text-center px-4 relative">
         <div class="z-10 animate-fade-in-up">
             <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 tracking-widest drop-shadow-lg">
                 九大フィル<br class="md:hidden">・カンマーオーケストラ
             </h1>
-            <p class="text-lg md:text-2xl text-gray-200 mb-8 font-light tracking-wide">
+            <p class="text-lg md:text-2xl text-gray-200 font-light tracking-wide">
                 Kyudai-Phil Kammerorchester
             </p>
-            <!-- 詳細を見るボタンを削除しました -->
-        </div>
-        
-        <!-- Scroll indicator -->
-        <div class="absolute bottom-10 animate-bounce">
-            <a href="#about" class="text-white opacity-70 hover:opacity-100 transition">
-                <i class="fas fa-angle-double-down text-3xl"></i>
-            </a>
         </div>
     </header>
 
@@ -107,13 +99,13 @@
             <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 tracking-wider">団体概要</h2>
             <div class="prose prose-lg mx-auto text-gray-600 leading-relaxed text-justify">
                 <p class="mb-6">
-                    九大フィル・カンマーオーケストラは、九大フィル・ハーモニーオーケストラを母体とし、同楽団のメンバーによって構成されている室内管弦楽団です。
+                    九大フィル・カンマーオーケストラは、九大フィル・ハーモニーオーケストラを母体とし、同楽団のメンバーによって構成されているる室内管弦楽団です。
                 </p>
                 <p class="mb-6">
                    大編成のオーケストラでは取り上げにくい古典派の楽曲を中心に演奏することを目的として設立されました。
                 </p>
                 <p>
-                   九州大学OBの井上京氏を指揮者として迎え、小規模編成ならではの緻密なアンサンブルを追求しています。
+                    九州大学OBの井上京氏を指揮者として迎え、小規模編成ならではの緻密なアンサンブルを追求しています。
                 </p>
             </div>
         </div>
@@ -130,7 +122,7 @@
                     <div class="text-blue-900 text-4xl mb-4"><i class="fas fa-music"></i></div>
                     <h3 class="text-xl font-bold mb-4 text-gray-800">定期演奏会</h3>
                     <p class="text-gray-600">
-                       年に１回、福岡市内のホールにて定期演奏会を開催しています。
+                        年に１回、福岡市内のホールにて定期演奏会を開催しています。
                     </p>
                 </div>
                 
@@ -139,7 +131,6 @@
                     <div class="text-blue-900 text-4xl mb-4"><i class="fas fa-users"></i></div>
                     <h3 class="text-xl font-bold mb-4 text-gray-800">練習について</h3>
                     <p class="text-gray-600">
-                        <!-- ここに練習に関するテキストが入ります -->
                     </p>
                 </div>
             </div>
@@ -151,7 +142,7 @@
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 tracking-wider">これからの演奏会</h2>
 
-                <!-- Concert Item -->
+                <!-- Concert Item (Dummy Data) -->
                 <div class="border-l-4 border-gray-300 pl-6 py-2">
                     <h3 class="text-lg font-bold text-gray-800">第２回 演奏会</h3>
                     <p class="text-sm text-gray-500 mb-2">2026年 9月10日（木） | [なみきホール]</p>
@@ -169,7 +160,7 @@
             <h2 class="text-3xl font-bold text-center mb-12 section-title text-gray-800 tracking-wider">過去の演奏会</h2>
             
             <div class="space-y-8">
-                <!-- Concert Item -->
+                <!-- Concert Item (Dummy Data) -->
                 <div class="border-l-4 border-blue-900 pl-6 py-2">
                     <h3 class="text-lg font-bold text-gray-800">第１回 演奏会</h3>
                     <p class="text-sm text-gray-500 mb-2">2025年 9月17日 | [FFGホール]</p>
@@ -186,24 +177,16 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-900 text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-8 tracking-wider">お問い合わせ・最新情報</h2>
+            <h2 class="text-3xl font-bold mb-8 tracking-wider">お問い合わせ</h2>
             <p class="mb-8 text-gray-300 max-w-2xl mx-auto">
-                当団の最新情報のご確認や、ご質問・演奏のご依頼などは、公式SNSのDM（ダイレクトメッセージ）よりお問い合わせください。<br>
-                <span class="text-sm">※お問い合わせへの返信にはお時間をいただく場合がございます。</span>
+                当団の活動に関する最新情報は、公式Instagramをご覧ください。
             </p>
             
-            <div class="flex flex-wrap justify-center gap-6">
+            <div class="flex justify-center">
                 <!-- Instagram Link -->
-                <a href="[InstagramのURL]" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:opacity-80 text-white px-8 py-3 rounded-md transition duration-300 flex items-center shadow-lg font-bold">
+                <a href="[InstagramのURL]" target="_blank" rel="noopener noreferrer" class="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:opacity-90 text-white px-8 py-3 rounded-md transition duration-300 flex items-center font-bold">
                     <i class="fab fa-instagram text-2xl mr-3"></i> Instagramを見る
                 </a>
-                
-                <!-- X (旧Twitter) Link (必要に応じてコメントアウトを外してください) -->
-                <!--
-                <a href="[XのURL]" target="_blank" rel="noopener noreferrer" class="bg-black border border-gray-600 hover:bg-gray-800 text-white px-8 py-3 rounded-md transition duration-300 flex items-center shadow-lg font-bold">
-                    <i class="fab fa-x-twitter text-2xl mr-3"></i> X (旧Twitter)
-                </a>
-                -->
             </div>
         </div>
     </section>
@@ -211,7 +194,7 @@
     <!-- Footer -->
     <footer class="bg-black text-gray-400 py-8 text-center text-sm">
         <div class="max-w-7xl mx-auto px-4">
-            <p>&copy; <span id="current-year"></span> 九大フィル・カンマーオーケストラ (Kyudai-Phil Kammerorchester). All rights reserved.</p>
+            <p>&copy; <span id="current-year"></span> Kyudai-Phil Kammerorchester. All rights reserved.</p>
         </div>
     </footer>
 
